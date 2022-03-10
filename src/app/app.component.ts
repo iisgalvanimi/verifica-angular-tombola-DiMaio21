@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Empty-Project';
+
+
+  numero : string = "inserisci un numero"
+
+  onClick() {
+      this.numero = "chgh"
+      }
+    
+      constructor() { }
+    
+      ngOnInit(): void {
+      }
+
+
+
 }
+
+

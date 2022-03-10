@@ -10,10 +10,11 @@ export class AppComponent {
 
 
   numero : string = "inserisci un numero"
+  numeri:string[] = []
 
   onClick() {
-      this.numero = "chgh"
-      }
+    this.numeri.push(this.numero);
+  }
     
       constructor() { }
     

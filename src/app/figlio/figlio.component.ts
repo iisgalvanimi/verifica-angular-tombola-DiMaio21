@@ -7,7 +7,7 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class FiglioComponent implements OnInit {
 
-  @Input() numero:string = ""
+  @Input() numeri:string[] = []
 
   constructor() { }
 

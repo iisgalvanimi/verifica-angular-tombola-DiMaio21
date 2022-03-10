@@ -1,3 +1,7 @@
 <p>Numeri Estratti</p>
-
-<p><small> Sono stati estratti i numeri : </small></p>
+<p><small>Ultimo numero: {{numeri[numeri.length - 1]}}</small></p>
+<p>
+    <small> Sono stati estratti i numeri : </small>
+    <br>
+    <small *ngFor="let n of numeri">{{n}}<br></small>
+</p>
